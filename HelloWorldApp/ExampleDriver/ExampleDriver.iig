@@ -1,0 +1,17 @@
+#ifndef ExampleDriver_h
+#define ExampleDriver_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+
+class ExampleDriver: public IOService
+{
+public:
+    virtual kern_return_t
+//    init(IOService * provider) override;
+    Start(IOService * provider) override;
+//    Stop(IOService * provider) override;
+//    free(IOService * provider) override;
+};
+
+#endif /* ExampleDriver_h */
