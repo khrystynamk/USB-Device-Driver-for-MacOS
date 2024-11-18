@@ -5,7 +5,7 @@
 #include <DriverKit/IOService.iig>
 //#include <DriverKit/IOHIDEventService.iig>
 
-class USBHIDDriverDriver: public IOService //IOHIDEventService
+class USBHIDDriverDriver: public IOHIDEventService
 {
 public:
     virtual kern_return_t Start(IOService *provider) override;
