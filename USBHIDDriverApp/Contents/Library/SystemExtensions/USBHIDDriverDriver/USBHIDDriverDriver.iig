@@ -1,0 +1,17 @@
+#ifndef USBHIDDriverDriver_h
+#define USBHIDDriverDriver_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+//#include <DriverKit/IOHIDEventService.iig>
+
+class USBHIDDriverDriver: public IOService //IOHIDEventService
+{
+public:
+    virtual kern_return_t Start(IOService *provider) override;
+//    virtual kern_return_t Stop(IOService *provider) override;
+//    virtual void free(IOService *provider) override;
+//    virtual bool init(IOService *provider) override;
+};
+
+#endif /* USBHIDDriverDriver_h */

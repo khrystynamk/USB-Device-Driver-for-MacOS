@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "6E0D6F2B-6A32-4CEF-A82B-4CF25007C3D7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:USBHIDDriverApp.xcodeproj",
+      "identifier" : "CCBD03BC2CE8D8950068B11C",
+      "name" : "USBHIDDriverApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:USBHIDDriverApp.xcodeproj",
+        "identifier" : "CCBD03CD2CE8D8990068B11C",
+        "name" : "USBHIDDriverAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:USBHIDDriverApp.xcodeproj",
+        "identifier" : "CCBD03D72CE8D8990068B11C",
+        "name" : "USBHIDDriverAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
